@@ -4,3 +4,9 @@ My implementation of a code kata exercise found on:
 http://codekata.pragprog.com/2007/01/code_kata_one_s.html
 
 
+---
+Git notes
+
+git add <file>
+git commit -a -m "message"
+git push origin master
