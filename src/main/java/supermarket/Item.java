@@ -19,7 +19,7 @@ public class Item {
 	}
 
 	public boolean isArticle(Article article) {
-		return this.article == article;
+		return this.article.equals(article);
 	}
 
 }

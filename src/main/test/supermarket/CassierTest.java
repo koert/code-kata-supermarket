@@ -7,8 +7,9 @@ import org.junit.Test;
 
 public class CassierTest {
 	
-	private Article article0 = new Article(new Price(1.0));
-	private Article article1 = new Article(new Price(1.5));
+	private ArticleFactory articleFactory = new ArticleFactory();
+	private Article article0 = articleFactory.article(1.0);
+	private Article article1 = articleFactory.article(1.5);
 
 	@Test
 	public void testNoItems() {
