@@ -8,7 +8,7 @@ public class Price {
 		this.price = price;
 	}
 
-	public double total(int amount) {
+	public double total(double amount) {
 		return price * amount;
 	}
 

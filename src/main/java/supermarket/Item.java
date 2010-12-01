@@ -3,9 +3,9 @@ package supermarket;
 public class Item {
 
 	private final Article article;
-	private final int amount;
+	private final double amount;
 
-	public Item(Article article, int amount) {
+	public Item(Article article, double amount) {
 		this.article = article;
 		this.amount = amount;
 	}
@@ -14,7 +14,7 @@ public class Item {
 		return article.total(amount);
 	}
 
-	public int getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 
